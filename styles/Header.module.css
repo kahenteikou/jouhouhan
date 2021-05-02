@@ -1,0 +1,15 @@
+
+.Headerkun{
+    background-color:slateblue;
+    color:white;
+}
+.official_button{
+    margin-left: 5vw;
+    max-width: fit-content;
+    height: 5vw;
+    display: table;
+}
+.official_button_a{
+    display: table-cell;
+    vertical-align: middle;
+}
