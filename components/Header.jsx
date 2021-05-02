@@ -12,7 +12,7 @@ class Header extends React.Component{
                 <div className={styles.Headerkun} >
                     <div className={styles.official_button}>
                         <a className={styles.official_button_a} href="/">
-                            <h1>福島高校SS部情報班</h1>
+                            <div className={styles.headerbig}>福島高校SS部情報班</div>
                         </a>
                     </div>
                 </div>

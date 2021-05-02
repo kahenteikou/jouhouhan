@@ -3,6 +3,9 @@
     background-color:slateblue;
     color:white;
 }
+.headerbig{
+    font-size: 1.5vw;
+}
 .official_button{
     margin-left: 5vw;
     max-width: fit-content;
