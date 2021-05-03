@@ -10,11 +10,13 @@ class AboutPage extends React.Component{
         <Header />
         <div>
           <div className={styles.About_Page_Gaiyou}>
-              情報班について
+            <div className={styles.innerkun24}>
+            情報班について
+            </div>
           </div>
           <div>
             <center>
-              <h1>情報班とは?</h1>
+              <h1  className={styles.mmidasi}>情報班とは?</h1>
             </center>
             <div className={styles.Hangaiyou}>
             情報班はSS部にある班です。<br />

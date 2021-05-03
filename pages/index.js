@@ -11,7 +11,7 @@ class Cardkun extends React.Component{
   render(){
       return(
           <>
-              <div>
+              <div className={styles.dasaifuti}>
                   <a href={this.props.href}>
                         <h1 className={styles.aboutkun}>
                             【{this.props.title}】
@@ -30,11 +30,12 @@ class IndexPage extends React.Component{
         <Header />
         <div>
           <div className={styles.Index_Page_Gaiyou}>
-              情報班公式<br />ホームページ
+              <div className={styles.innerkun24}>
+              情報班公式<br />ホームページ</div>
           </div>
           <div className={styles.content}>
             <div  className={styles.siteitiran}>
-              <h1>
+              <h1 className={styles.mmidasi}>
                 サイト一覧
               </h1>
             </div>

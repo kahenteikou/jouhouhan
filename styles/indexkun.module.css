@@ -7,11 +7,6 @@
     align-items: center;
     font-size: 5vw;
     color:white;
-    text-shadow:
-      5px 0 0 black,
-      0 5px 0 black,
-      -5px 0 0 black,
-      0 -5px 0 black;
     text-align: center;
 }
 .siteitiran{
@@ -24,6 +19,17 @@
     text-decoration:underline;
 }
 .content{
+}
+.mmidasi{
+    
+    transform: skewX(-20deg);
+    display: inline-block;
+}
+.innerkun24{
+  
+  transform: skewX(-20deg);
+  display: inline-block;
+  background-color: #00000077;
 }
 .paddingkun{
     height: 3vw;
@@ -45,4 +51,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
+	border: 0.08vw solid blue ;
 }
