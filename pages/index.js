@@ -11,16 +11,14 @@ class Cardkun extends React.Component{
   render(){
       return(
           <>
-              <section className={styles.Cardkun}>
+              <div>
                   <a href={this.props.href}>
-                    <div className={styles.Cardcontent}>
-                        <h1 className={styles.CardTitle}>
-                            {this.props.title}
+                        <h1 className={styles.aboutkun}>
+                            【{this.props.title}】
                         </h1>
                         {this.props.children}
-                    </div>
                   </a>
-              </section>
+              </div>
           </>
       )
   }

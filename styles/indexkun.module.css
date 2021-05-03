@@ -17,6 +17,10 @@
 .siteitiran{
     text-align: center;
 }
+.aboutkun{
+    transform: skewX(-20deg);
+    display: inline-block;
+}
 .content{
 }
 .paddingkun{
@@ -26,8 +30,6 @@
     text-align: center;
 }
 .Cardkun{
-    height:9vw;
-    width: 40%;
     border-radius: 0.7vw;
     background-color: #666666;
 }
