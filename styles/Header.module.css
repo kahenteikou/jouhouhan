@@ -9,6 +9,7 @@
     width: 100%;
     transform: skewX(-20deg);
     display: inline-block;
+    text-decoration:underline;
 }
 .official_button{
     /*margin-left: 5vw;*?
