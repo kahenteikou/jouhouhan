@@ -47,6 +47,15 @@ class IndexPage extends React.Component{
                     </div>
                   </Cardkun>
               </div>
+              <div className={styles.innerkun}>
+                <center>
+                  <Cardkun title="このサイトについて" href="/aboutsite">
+                    <div className={styles.PageCont}>
+                      どのようにしてこのサイトが作られているのかが簡潔に載っています
+                    </div>
+                  </Cardkun>
+                </center>
+              </div>
             </div>
           </div>
         </div>
