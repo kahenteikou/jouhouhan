@@ -64,6 +64,9 @@ class IndexPage extends React.Component{
               <SiteCard title="このサイトについて" href="/aboutsite">
                 どのようにしてこのサイトが作られているのかが簡潔に載っています
               </SiteCard>
+              <SiteCard title="情報班の心得" href="/rulekun">
+                守る事が載っているはずです
+              </SiteCard>
             </div>
           </div>
         </div>

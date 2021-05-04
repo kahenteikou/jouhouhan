@@ -1,0 +1,36 @@
+.RuleKunPage{
+    height: 18vw;
+    background-image: url("/jouhouhangaiyou.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+    color:#00ffff;
+}
+.Hangaiyou{
+  font-size: 1.5vw;
+  text-align: center;
+}
+.innerkun24{
+  
+  transform: skewX(-20deg);
+  display: inline-block;
+  background-color: #00000077
+}
+.innerkun27{
+  
+  transform: skewX(-20deg);
+  display: inline-block;
+  font-size:3vw;
+}
+.kokoroekun{
+    font-size:1.3vw;
+    
+}
+.kokoroe_blank{
+    margin-bottom: 1.0vw;
+}
+.kokoroeimg{
+    width:15vw;
+
+}
