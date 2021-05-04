@@ -23,6 +23,24 @@ class Cardkun extends React.Component{
       )
   }
 }
+class SiteCard extends React.Component{
+  constructor(props){
+    super(props)
+  }
+  render(){
+    return(
+      <div className={styles.innerkun}>
+      <center>
+        <Cardkun title={this.props.title} href={this.props.href}>
+          <div className={styles.PageCont}>
+            {this.props.children}
+          </div>
+        </Cardkun>
+      </center>
+    </div>
+    )
+  }
+}
 class IndexPage extends React.Component{
   render(){
     return(
@@ -40,22 +58,12 @@ class IndexPage extends React.Component{
               </h1>
             </div>
             <div id="pagels">
-              <div className={styles.innerkun}>
-                  <Cardkun title="情報班について" href="/about">
-                    <div className={styles.PageCont}>
-                      情報班についての内容が載っています。
-                    </div>
-                  </Cardkun>
-              </div>
-              <div className={styles.innerkun}>
-                <center>
-                  <Cardkun title="このサイトについて" href="/aboutsite">
-                    <div className={styles.PageCont}>
-                      どのようにしてこのサイトが作られているのかが簡潔に載っています
-                    </div>
-                  </Cardkun>
-                </center>
-              </div>
+              <SiteCard title="情報班について" href="/about">
+                情報班についての内容が載っています。
+              </SiteCard>
+              <SiteCard title="このサイトについて" href="/aboutsite">
+                どのようにしてこのサイトが作られているのかが簡潔に載っています
+              </SiteCard>
             </div>
           </div>
         </div>
