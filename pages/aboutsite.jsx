@@ -33,6 +33,14 @@ class AboutPageSite extends React.Component{
                 ReactやNext.JSは最近出てきた技術です。<br/>
                 ReactはInstagramやFacebookなどで使われていますから。
             </div>
+            <center>                 
+              <h1>DOMいじりについてどう思う?</h1>
+            </center>
+            <div className={styles.Hangaiyou}>
+                ReactがあるのでjQueryとかは使いませんねぇ...<br/>
+                コード汚くなるし動作微妙なので...<br/>
+                やっぱりReactがﾅﾝﾊﾞｰﾜﾝ
+            </div>
           </div>
         </div>
         <div style={{
