@@ -2,11 +2,16 @@
     width:100%;
     height:3vw;
     background-color: green;
-    /*position: absolute;
-    bottom:0;*/
 }
+
 .powered{
     color:white;
     text-align: center;
     font-size:2vw;
+}
+@media screen and (max-width:560px){
+    .lastbannertop{
+        position: absolute;
+        bottom:0;
+    }
 }
