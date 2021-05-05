@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import React from 'react'
 import Header from '../components/Header'
+import LastBanner from "../components/LastBanner"
 import styles from "../styles/indexkun.module.css"
 
 class Cardkun extends React.Component{
@@ -70,6 +71,7 @@ class IndexPage extends React.Component{
             </div>
           </div>
         </div>
+        <LastBanner />
       </>
     )
   }
