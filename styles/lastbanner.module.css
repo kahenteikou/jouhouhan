@@ -2,6 +2,7 @@
     width:100%;
     height:3vw;
     background-color: green;
+    margin-top: 10vw;
 }
 
 .powered{
@@ -13,5 +14,9 @@
     .lastbannertop{
         position: absolute;
         bottom:0;
+        height: 5vw;
+    }
+    .powered{
+        font-size: 4vw;
     }
 }
