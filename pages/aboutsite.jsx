@@ -43,10 +43,10 @@ class AboutPageSite extends React.Component{
                 やっぱりReactがﾅﾝﾊﾞｰﾜﾝ
             </div>
           </div>
-        </div>
         <div style={{
           marginTop:"15vw"
         }} />
+        </div>
         <LastBanner />
       </>
     )
