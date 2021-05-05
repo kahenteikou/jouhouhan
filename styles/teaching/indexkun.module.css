@@ -18,3 +18,38 @@
 .siteitiran{
     text-align: center;
 }
+.aboutkun{
+    transform: skewX(-20deg);
+    display: inline-block;
+    color:#0099ff;
+    text-decoration:underline;
+}
+.content{
+}
+.mmidasi{
+    
+    transform: skewX(-20deg);
+    display: inline-block;
+}
+.paddingkun{
+    height: 3vw;
+}
+.PageCont{
+    text-align: center;
+}
+.Cardkun{
+    border-radius: 0.7vw;
+    background-color: #666666;
+}
+.Cardcontent{
+    color:white
+}
+.CardTitle{   
+    text-align: center;
+}
+.innerkun{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	border: 0.08vw solid blue ;
+}
