@@ -18,3 +18,8 @@
   display: inline-block;
   background-color: #00000077;
 }
+@media screen and (max-width:560px) {
+  .Hangaiyou{
+    font-size:4.6vw;
+  }
+}

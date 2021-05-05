@@ -3,6 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 import Header from '../components/Header'
 import LastBanner from "../components/LastBanner"
+import BlinkObj from "../components/BlinkObj"
 import styles from "../styles/indexkun.module.css"
 
 class Cardkun extends React.Component{
@@ -50,7 +51,10 @@ class IndexPage extends React.Component{
         <div>
           <div className={styles.Index_Page_Gaiyou}>
               <div className={styles.innerkun24}>
-              情報班公式<br />ホームページ</div>
+                <BlinkObj intervalkun="700">
+                  情報班公式<br />ホームページ
+                </BlinkObj>
+              </div>
           </div>
           <div className={styles.content}>
             <div  className={styles.siteitiran}>

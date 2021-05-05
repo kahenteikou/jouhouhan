@@ -14,6 +14,7 @@
 .innerkun24{
   
   transform: skewX(-20deg);
+  
   display: inline-block;
   background-color: #00000077
 }
@@ -33,4 +34,17 @@
 .kokoroeimg{
     width:15vw;
 
+}
+@media screen and (max-width:560px) {
+  .innerkun27{
+    font-size:10vw;
+  }
+  .kokoroekun{
+      font-size:4vw;
+      
+  }
+  .kokoroeimg{
+      width:30vw;
+  
+  }
 }

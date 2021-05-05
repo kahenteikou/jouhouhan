@@ -25,3 +25,9 @@
     display: table-cell;
     vertical-align: middle;
 }
+@media screen and (max-width:560px) {
+    
+    .headerbig{
+        font-size: 3.8vw;
+    }
+}
