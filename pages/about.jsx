@@ -3,6 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 import Header from '../components/Header'
 import styles from "../styles/aboutpage.module.css"
+import LastBanner from "../components/LastBanner"
 class AboutPage extends React.Component{
   render(){
     return(
@@ -34,6 +35,7 @@ class AboutPage extends React.Component{
         <div style={{
           marginTop:"15vw"
         }} />
+        <LastBanner />
       </>
     )
   }

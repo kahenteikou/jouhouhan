@@ -4,6 +4,7 @@ import React from 'react'
 import Header from '../components/Header'
 import BlinkObj from "../components/BlinkObj"
 import styles from "../styles/rulekun.module.css"
+import LastBanner from "../components/LastBanner"
 class KokoroeList extends React.Component{
     constructor(props){
         super(props)
@@ -57,6 +58,7 @@ class RulePage extends React.Component{
                         </center>
                     </div>
                 </div>
+                <LastBanner />
             </>
         )
     }

@@ -4,6 +4,7 @@ import React from 'react'
 import Header from '../components/Header'
 import styles from "../styles/aboutsitekun.module.css"
 import BlinkObj from "../components/BlinkObj"
+import LastBanner from "../components/LastBanner"
 class AboutPageSite extends React.Component{
   render(){
     return(
@@ -46,6 +47,7 @@ class AboutPageSite extends React.Component{
         <div style={{
           marginTop:"15vw"
         }} />
+        <LastBanner />
       </>
     )
   }
