@@ -1,0 +1,20 @@
+
+.Index_Page_Gaiyou{
+    height: 18vw;
+    background-image: url("/jouhouhangaiyou.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+    color:#00ffff;
+    text-align: center;
+}
+.innerkun24{
+  
+  transform: skewX(-20deg);
+  display: inline-block;
+  background-color: #00000077;
+}
+.siteitiran{
+    text-align: center;
+}

@@ -43,6 +43,34 @@ class SiteCard extends React.Component{
     )
   }
 }
+class SiteLskun extends React.Component{
+  constructor(props){
+    super(props)
+    
+    this.state={Pagels:[
+      {t:"情報班について",u:"/about",c:"情報班についての内容が載っています。"},
+      {t:"このサイトについて",u:"/aboutsite",c:"どのようにしてこのサイトが作られているのかが簡潔に載っています"},
+      {t:"情報班の心得",u:"/rulekun",c:"守る事が載っているはずです"},
+      {t:"情報教育班",u:"/teaching",c:"情報教育班の新公式ページ(工事中)"},
+      {t:"現情報教育班",u:"https://sites.google.com/view/fukushimajouhouhan2021",c:"旧ページ"}
+    ]}
+  }
+  render(){
+    return(
+      <div>
+      {
+        this.state.Pagels.map(e => (
+          <>
+            <SiteCard title={e.t} href={e.u}>
+              {e.c}
+            </SiteCard>
+          </>
+        ))
+      }
+      </div>
+    )
+  }
+}
 class IndexPage extends React.Component{
   render(){
     return(
@@ -63,15 +91,7 @@ class IndexPage extends React.Component{
               </h1>
             </div>
             <div id="pagels">
-              <SiteCard title="情報班について" href="/about">
-                情報班についての内容が載っています。
-              </SiteCard>
-              <SiteCard title="このサイトについて" href="/aboutsite">
-                どのようにしてこのサイトが作られているのかが簡潔に載っています
-              </SiteCard>
-              <SiteCard title="情報班の心得" href="/rulekun">
-                守る事が載っているはずです
-              </SiteCard>
+              <SiteLskun />
             </div>
           </div>
         </div>
