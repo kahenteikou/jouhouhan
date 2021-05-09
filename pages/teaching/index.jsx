@@ -47,6 +47,7 @@ class SiteLskun extends React.Component{
     super(props)
     
     this.state={Pagels:[
+      {t:"授業",u:"/teaching/study",c:"授業について"},
       {t:"情報教育班について",u:"/teaching/about",c:"情報教育班についての内容が載っています。"}
     ]}
   }
