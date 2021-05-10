@@ -12,7 +12,6 @@
 }
 @media screen and (max-width:560px){
     .lastbannertop{
-        position: absolute;
         bottom:0;
         height: 5vw;
     }
